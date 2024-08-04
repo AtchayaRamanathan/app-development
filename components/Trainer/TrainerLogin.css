@@ -1,0 +1,120 @@
+/* src/components/Trainer/TrainerDashboard.css */
+
+.trainer-dashboard {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .trainer-efficiency-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .trainer-efficiency-list li {
+    margin: 5px 0;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .trainee-list {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .trainee-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .trainee-list li {
+    cursor: pointer;
+    margin: 5px 0;
+  }
+  
+  .trainee-progress {
+    flex: 2;
+  }
+  
+  .trainee-progress ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .trainee-progress li {
+    margin: 5px 0;
+  }
+  
+  .services-section, .class-schedules {
+    margin-top: 20px;
+  }
+  
+  .services-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+    max-width: 30%;
+  }
+  
+  .service h3 {
+    margin-top: 0;
+  }
+  
+  .signup-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .class-schedules table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .class-schedules th, .class-schedules td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .class-schedules th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .class-schedules tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

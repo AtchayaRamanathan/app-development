@@ -1,0 +1,186 @@
+/* Overall Layout */
+.home {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: black;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: black;
+    /* Change to a background color or image */
+    padding: 20px;
+    text-align: center;
+    color:#f4f4f4
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #007bff; /* Change to your desired color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3; /* Change to your desired hover color */
+  }
+  
+  /* Features Section */
+  .features {
+    text-align: center;
+    color:white;/* Change to a background color or image */
+    padding: 20px;
+    background-color: black;
+    
+  }
+  
+  .features-heading {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .feature-cards-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: rgb(16, 10, 8);
+  }
+  
+  .arrow {
+    background: greenyellow; /* Change to your desired arrow color */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .prev-arrow {
+    position: absolute;
+    left: 10px; /* Adjust if needed */
+    z-index: 10; /* Ensure it's above the feature cards */
+  }
+  
+  .next-arrow {
+    position: absolute;
+    right: 10px; /* Adjust if needed */
+    z-index: 10; /* Ensure it's above the feature cards */
+  }
+  
+  .feature-cards-wrapper {
+    overflow: hidden;
+    width: 100%;
+
+  }
+  
+  .feature-cards {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card {
+    flex: 0 0 25%; /* Adjusted to reduce width of feature cards */
+    margin: 0 10px;
+    padding: 20px;
+    color:rgb(255, 255, 255);
+    background: #eb1c1c;
+    background-image: url('https://i.pinimg.com/736x/b2/73/34/b273344a354c91b8e0d43320fdf862e6.jpg'); /* Change to your desired background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: orangered,10px;
+  }
+  
+  .feature-content {
+    text-align: left;
+    background-color: aqua;
+    background-image: url('https://i.pinimg.com/736x/b2/73/34/b273344a354c91b8e0d43320fdf862e6.jpg');
+    padding-left: 20px;
+  }
+  
+  .feature-button {
+    background-color: #24de1e; /* Change to your desired button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .feature-button:hover {
+    background-color: #000102; /* Change to your desired hover color */
+  }
+  
+  /* CTA Section */
+  .cta {
+    background: #050000; /* Change to a background color or image */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cta h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    background-color:black;
+    color:rgb(254, 250, 248)
+  }
+  
+  .cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color:rgb(247, 242, 240);
+  }
+  
+  /* Slide Over Section */
+  .slide-over {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none; /* Hide by default */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slide-over.show {
+    display: flex;
+  }
+  
+  .slide-over-content {
+    background: #fff; /* Change to your desired background color */
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .close-button {
+    background: #e74c3c; /* Change to your desired close button color */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .close-button:hover {
+    background: #c0392b; /* Change to your desired hover color */
+  }
+  

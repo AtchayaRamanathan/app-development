@@ -1,0 +1,119 @@
+/* General Styles */
+.trainer-dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color:rgb(1, 1, 1);
+  background-color: rgb(248, 242, 242);
+}
+
+/* Navbar Styles */
+.nav {
+  background-color: black;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.trainer-efficiency-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.trainer-efficiency-list li {
+  margin: 5px 0;
+}
+
+/* Dashboard Content */
+.dashboard-content {
+  display: flex;
+  flex: 1;
+}
+
+/* Trainee List Styles */
+.trainee-list {
+  flex: 1;
+  padding: 10px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.trainee-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.trainee-list li {
+  cursor: pointer;
+  padding: 5px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.trainee-list li:hover {
+  background-color: #f1e9e9;
+}
+
+/* Trainee Progress Styles */
+.trainee-progress {
+  flex: 2;
+  padding: 10px;
+}
+
+/* Services Section Styles */
+.services-section {
+  padding: 20px;
+}
+
+.services-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-list {
+  flex: 1;
+}
+
+.service-card {
+  background-color: #f7f3f3;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #151313;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  margin-top: 0;
+}
+
+.signup-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+}
+
+/* Chart Styles */
+.service-usage-chart {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-card {
+  width: 100%;
+  max-width: 400px;
+  height: 300px; /* Adjust height as needed */
+  background-color: #151313;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}

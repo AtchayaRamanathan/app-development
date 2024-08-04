@@ -1,0 +1,21 @@
+/* src/components/Navbar.css */
+.navbar {
+    background-color: black; /* Black background */
+    color: white; /* Text color */
+    padding: 10px;
+    font-size: 40%;
+  }
+  
+  .navbar .MuiToolbar-root {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar .MuiButton-root {
+    color: white; /* Text color for buttons */
+  }
+  
+  .navbar .MuiButton-root:hover {
+    background-color: #333; /* Darker background on hover */
+  }
+  /* src/components/Navbar.css */

@@ -1,0 +1,108 @@
+/* General container styles */
+.services {
+    padding: 20px;
+    width:100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    color:rgb(245, 242, 242);
+    background-color: #050605;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  /* Introduction section styling */
+  .intro {
+    text-align: center;
+    margin-bottom: 40px;
+    color:rgb(239, 232, 232);
+  }
+  
+  /* Grid layout for services sections */
+  .services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Style for each section */
+  .price-packages, .special-offers, .special-training {
+    flex: 1;
+    min-width: 300px; /* Ensure each section has a minimum width */
+    background-color: #050605;
+    color:white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Style for each item in sections */
+  .package, .offer, .training {
+    background-color: #020202;
+    background-image: url('https://media.istockphoto.com/id/1287504319/photo/fitness-equipment-on-the-floor-at-the-gym.webp?b=1&s=170667a&w=0&k=20&c=BMwDhcKiMVC6Y1z5UL1bHkJTLHres2_9vpDPt7uVAL4=');
+    background-size: cover;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color:white;
+  }
+  
+  /* Heading styles */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+  }
+  
+  /* List styles */
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* Button styles */
+  .signup-button, .pay-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .signup-button:hover, .pay-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Flexbox layout for diet plans */
+  .fitness-diet-planner {
+    margin-top: 40px;
+  }
+  
+  .diet-plans {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between diet plans */
+  }
+  
+  .plan {
+    flex: 1;
+    min-width: calc(33.333% - 20px); /* Adjust for three columns */
+    background-color: #0b0505;
+    background-image: url('https://media.istockphoto.com/id/1992156358/photo/food-background-with-spices-herbs-and-utensil-on-white-background.webp?b=1&s=170667a&w=0&k=20&c=cN-MFfkWLMOejBKAWeEPA28cPFP4A2sexJtoFxe9wRk=');
+    color:white;
+    background-size: cover;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+  }
+  
